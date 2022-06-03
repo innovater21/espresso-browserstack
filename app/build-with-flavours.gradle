@@ -73,8 +73,8 @@ spoon {
 }
 
 browserStackConfig {
-    username = "$System.env.BROWSERSTACK_USERNAME"
-    accessKey = "$System.env.BROWSERSTACK_ACCESS_KEY"
+    username = "abhishekjha_iSFAab"
+    accessKey = "ULxRymvwoznPefoRe39n"
     customId = "AndroidTestAPK"
     debug = true
     configFilePath = "${rootDir}/config-browserstack.json"

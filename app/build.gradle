@@ -17,8 +17,8 @@ buildscript {
 
     dependencies {
         classpath 'com.stanfy.spoon:spoon-gradle-plugin:1.2.2'
-        classpath "gradle.plugin.com.browserstack.gradle:browserstack-gradle-plugin:3.0.4"
-        // classpath "com.browserstack:gradle:3.0.4"
+        // classpath "gradle.plugin.com.browserstack.gradle:browserstack-gradle-plugin:3.0.4"
+        classpath "com.browserstack:gradle:3.0.4"
     }
 }
 
@@ -66,8 +66,8 @@ spoon {
 }
 
 browserStackConfig {
-    username = "$System.env.BROWSERSTACK_USERNAME"
-    accessKey = "$System.env.BROWSERSTACK_ACCESS_KEY"
+    username = "abhishekjha_iSFAab"
+    accessKey = "ULxRymvwoznPefoRe39n"
     customId = "AndroidTestAPK"
     debug = true
     configFilePath = "${rootDir}/config-browserstack.json"
